@@ -3,8 +3,11 @@ require 'meekrodb.2.2.class.php';
 require 'Node.php';
 require 'Tree.php';
 
-/* this prints data on each node */
-
+/**
+ * Prints out the node id, and it's children's ids.
+ *
+ * @param Node $node
+ */
 function printTree(Node $node) {
 
     echo 'This node is: '.$node->id.' and its children are: ';
