@@ -51,7 +51,7 @@ foreach($roots as $root) {
  * and walks on its descendents,
  * effectively creating a subtree who's root is node 2
  */
-echo 'A SUBTREE STARTING FROM 2:<br />';
+echo '<br />A SUBTREE STARTING FROM 2:<br />';
 $some_node = $tree->getNode(2);
 $tree->walk(Tree::DEPTH_FIRST, $some_node, 'printTree');
 
